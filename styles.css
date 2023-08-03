@@ -1,3 +1,21 @@
+:root {
+   --PaleViolet: hsl(276, 100%, 81%); /*?(sub-heading at the top of the app UI) */
+   --ModerateViolet: hsl(276, 55%, 52%); /*? (chat on the left)*/
+   --DesaturatedDarkViolet: hsl(271, 15%, 43%); /*? (chat on the right)*/
+   --GrayishBlue: hsl(206, 6%, 79%); /*?(placeholder text)*/
+   --VeryDark: hsl(271, 36%, 24%); /*?Desaturated Violet (main heading)*/
+   --DarkGrayishViolet: hsl(270, 7%, 64%); /*?(paragraph)*/
+   --White: hsl(0, 0%, 100%);
+   --LightGrayishViolet: hsl(270, 20%, 96%); /*?(app background) */
+   --VeryDarkDesaturatedViolet: hsl(271, 36%, 24%); /*?(submit button background) */
+   --VeryLightMagenta: hsl(289, 100%, 72%); /*? (radio button outline)*/
+}
+
 body {
-   background-color: red;
+   font-family: "Rubik", sans-serif;
+}
+
+svg {
+   width: 10px;
+   height: 10px;
 }
